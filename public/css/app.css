@@ -1,0 +1,179 @@
+#modalLoading {
+    background-color: rgba(241, 241, 241, 0.7);
+    bottom: 0px;
+    display: inline-table;
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    z-index: 50000;
+}
+
+#modalLoading > div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#modalLoading > div > div {
+    animation: loadingTwo 1s infinite;
+    border-radius: 80px;
+    display: inline-block;
+    padding: 80px;
+}
+
+#modalLoading > div > div > div {
+    animation: loadingOne 1s infinite;
+    border-radius: 80px;
+    display: inline-block;
+    padding: 10px;
+}
+
+#modalLoading > div > div > div > div {
+    animation: loadingLogo 1s infinite linear;
+    width: 80px;
+    z-index: 50000;
+}
+
+.divPagination {
+    border-bottom: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+    font-size: 16px;
+    padding: 3px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.divPagination .divPaginationPageNumber {
+    border: solid 1px #999999;
+    display: inline-block;
+    margin: 2px;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    width: 44px;
+}
+
+.divPagination .divPaginationPageNumber:hover {
+    background-color: #6195ce;
+    color: #ffffff;
+}
+
+.divPagination a {
+    cursor: pointer;
+    line-height: 18px;
+}
+
+.divPagination .divPaginationJump {
+    color: #896188;
+    text-decoration: none;
+}
+
+.divPagination .divPaginationJump:hover {
+    text-decoration: underline;
+}
+
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline,
+.has-success.radio label,
+.has-success.checkbox label,
+.has-success.radio-inline label,
+.has-success.checkbox-inline label {
+    color: #3c763d;
+}
+.has-success .form-control {
+    border-width: 2px;
+    border-color: #3c763d;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.has-success .form-control:focus {
+    border-color: #2b542c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+}
+.has-success .input-group-addon {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #3c763d;
+}
+.has-success .form-control-feedback {
+    color: #3c763d;
+}
+.has-warning .help-block,
+.has-warning .control-label,
+.has-warning .radio,
+.has-warning .checkbox,
+.has-warning .radio-inline,
+.has-warning .checkbox-inline,
+.has-warning.radio label,
+.has-warning.checkbox label,
+.has-warning.radio-inline label,
+.has-warning.checkbox-inline label {
+    color: #8a6d3b;
+}
+.has-warning .form-control {
+    border-width: 2px;
+    border-color: #8a6d3b;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.has-warning .form-control:focus {
+    border-color: #66512c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+}
+.has-warning .input-group-addon {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #8a6d3b;
+}
+.has-warning .form-control-feedback {
+    color: #8a6d3b;
+}
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+    color: #a94442;
+}
+.has-error .form-control {
+    border-width: 2px;
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.has-error .form-control:focus {
+    border-color: #843534;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+.has-error .input-group-addon {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #a94442;
+}
+.has-error .form-control-feedback {
+    color: #a94442;
+}
+.has-feedback label ~ .form-control-feedback {
+    top: 25px;
+}
+.has-feedback label.sr-only ~ .form-control-feedback {
+    top: 0;
+}

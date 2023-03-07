@@ -1,0 +1,2 @@
+insert into tusuario(idusuario,nombre,correo,contrasena,apellido,foto,rol,telefono,estado,created_at,updated_at)
+values ('63e1bf6ca0ac2','sandra','sandra@gmail.com','$2y$10$v4QcHIPu/Zh6IDLro7n2RO5PPNSqMzuJAe4LqtdYijv3JT0H2W7X.','Tapia Rodriguez','','super usuario','12345678','habilitado',now(),now());
